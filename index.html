@@ -22,11 +22,15 @@
 <body>
 	<header class="ba-header">
 		<div class="ba-container cf">
+			<a href="#" id="ba-menu-toggle" class="ba-menu-toggle"><span></span></a>
 			<a href="#" class="ba-logo ba-float-left">
 				<img src="img/logo.png" alt="logo">
 			</a>
-			<a class="ba-button ba-button__register" href="#">
-				Register now
+			<a class="ba-button ba-button__register" href="#subscribe">
+				Subcribe
+			</a>
+			<a class="ba-button ba-button__register" href="#login">
+				Login
 			</a>
 			<nav class="ba-float-right">
 				<ul class="ba-menu">
@@ -147,10 +151,36 @@
 			</div>
 		</section>
 
+
 	</main>
-	<footer class="ba-footer">
-		&copy; 2016 Team It Poltava
-	</footer>
+	<div class="footer">
+		<footer class="ba-footer">
+			&copy; 2016 Team It Poltava
+		</footer>
+		<a class="ba-overlay" id="subscribe"></a>
+		<div class="ba-popup">
+			<form action="#" method="post">
+				<label for="name-subscribes">Your name</label><br>
+				<input id="name-subscribes" name="name" size="30" type="text"><br>
+				<label for="email-subscribes">Your email</label><br>
+				<input id="email-subscribes" name="email" size="30" type="email"><br>
+				<input value="Subscribe" type="submit">
+			</form>
+			<a class="ba-close" title="Close" href="#close"></a>
+		</div>
+		<a class="ba-overlay" id="login"></a>
+		<div class="ba-popup">
+			<form action="#" method="post">
+				<label for="name-login">Your name</label><br>
+				<input id="name-login" name="name" size="30" type="text"><br>
+				<label for="password-login">Your email</label><br>
+				<input id="assword-login" name="password" size="30" type="password"><br>
+				<input value="Login" type="submit">
+				<a href="admin.html">Login</a>
+			</form>
+			<a class="ba-close" title="Close" href="#close"></a>
+		</div>
+	</div>
 	<script src="js/main.js"></script>
 </body>
 </html>
