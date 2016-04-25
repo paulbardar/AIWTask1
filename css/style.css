@@ -10,6 +10,7 @@ body {
 a,
 input[type="submit"],
 input[type="button"],
+input[type="reset"],
 button{
 	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
@@ -17,6 +18,7 @@ button{
 }
 input[type="submit"],
 input[type="button"],
+input[type="reset"],
 button,
 .ba-button{
 	display: inline-block;
@@ -49,6 +51,7 @@ button,
 }
 input[type="submit"]:hover,
 input[type="button"]:hover,
+input[type="reset"]:hover,
 button:hover,
 .ba-button:hover{
 	color: yellow;
