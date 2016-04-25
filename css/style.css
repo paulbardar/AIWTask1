@@ -177,7 +177,7 @@ textarea {
 		top: 0;
 		bottom: 0;
 		width: 150px;
-		background: grey;
+		background: transparent;
 		margin-top: 0;
 		padding-top: 60px;
 		transform: translateX(100%);
@@ -398,7 +398,7 @@ footer{
 
 /* ba-overlay */
 .ba-popup form {
-    width: 300px;
+    width: 360px;
     display: block;
     margin: 0 auto;
     padding: 20px;
@@ -426,7 +426,7 @@ footer{
 	 z-index: 20;
     margin: 0;
     width: 85%;
-    min-width: 320px;
+    min-width: 360px;
     max-width: 600px;
     position: fixed;
     padding: 15px;

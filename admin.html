@@ -27,7 +27,7 @@
             </a>
            <nav class="ba-float-right">
                 <ul class="ba-menu">
-                    <li><a href="#"> Create Post </a></li>
+                    <li><a href="#create-post"> Create Post </a></li>
                     <li><a href="index.html"> Back </a></li>
                 </ul>
             </nav>
@@ -55,7 +55,7 @@
             <td> 03.02.2015 </td>
             <td> ul.Shevchenka 34b </td>
             <td class="view"> <i class="fa fa-eye" aria-hidden="true"></i> </td>
-            <td class="edit"> <i class="fa fa-pencil" aria-hidden="true"></i> </td>
+            <td class="edit"><a href="#edit-post"> <i class="fa fa-pencil" aria-hidden="true"></i></a> </td>
         </tr>
         <tr>
             <td> JS Advanced </td>
@@ -64,7 +64,7 @@
             <td> 03.02.2015 </td>
             <td> ul.Shevchenka 34b </td>
             <td class="view"> <i class="fa fa-eye" aria-hidden="true"></i> </td>
-            <td class="edit"> <i class="fa fa-pencil" aria-hidden="true"></i> </td>
+            <td class="edit"><a href="#edit-post"> <i class="fa fa-pencil" aria-hidden="true"></i></a> </td>
         </tr>
         <tr>
             <td> JS Advanced </td>
@@ -73,7 +73,7 @@
             <td> 03.02.2015 </td>
             <td> ul.Shevchenka 34b </td>
             <td class="view"> <i class="fa fa-eye" aria-hidden="true"></i> </td>
-            <td class="edit"> <i class="fa fa-pencil" aria-hidden="true"></i> </td>
+            <td class="edit"><a href="#edit-post"> <i class="fa fa-pencil" aria-hidden="true"></i></a> </td>
         </tr>
         <tr>
             <td> JS Advanced </td>
@@ -81,12 +81,45 @@
             <td> 14.05.2016 </td>
             <td> 03.02.2015 </td>
             <td> ul.Shevchenka 34b </td>
-            <td class="view"> <i class="fa fa-eye" aria-hidden="true"></i> </td>
-            <td class="edit"> <i class="fa fa-pencil" aria-hidden="true"></i> </td>
+            <td class="view"><i class="fa fa-eye" aria-hidden="true"></i> </td>
+            <td class="edit"><a href="#edit-post"> <i class="fa fa-pencil" aria-hidden="true"></i></a> </td>
         </tr>
         </tbody>
     </table>
 </section>
-
+<a class="ba-overlay" id="create-post"></a>
+<div class="ba-popup">
+    <form action="#" method="post">
+        <label for="title">Title</label><br>
+        <input id="title" name="title" size="30" type="text"><br>
+        <label for="date-begin">Date begin</label><br>
+        <input id="date-begin" name="bdate" size="30" type="date"><br>
+        <label for="date-end">Date end</label><br>
+        <input id="date-end" name="edate" size="30" type="date"><br>
+        <label for="date-created">Date create</label><br>
+        <input id="date-created" name="cdate" size="30" type="date"><br>
+        <label for="address">Address</label><br>
+        <input id="address" name="address" size="30" type="text"><br>
+        <input value="Create" type="submit">
+    </form>
+    <a class="ba-close" title="Close" href="#close"></a>
+</div>
+<a class="ba-overlay" id="edit-post"></a>
+<div class="ba-popup">
+    <form action="#" method="post">
+        <label for="title">Title</label><br>
+        <input id="title" name="title" size="30" type="text"><br>
+        <label for="date-begin">Date begin</label><br>
+        <input id="date-begin" name="bdate" size="30" type="date"><br>
+        <label for="date-end">Date end</label><br>
+        <input id="date-end" name="edate" size="30" type="date"><br>
+        <label for="date-created">Date create</label><br>
+        <input id="date-created" name="cdate" size="30" type="date"><br>
+        <label for="address">Address</label><br>
+        <input id="address" name="address" size="30" type="text"><br>
+        <input value="Create" type="submit">
+    </form>
+    <a class="ba-close" title="Close" href="#close"></a>
+</div>
 </body>
 </html>
